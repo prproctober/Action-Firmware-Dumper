@@ -89,7 +89,7 @@ jobs:
     - name: Setup Dump Environment
       run: |
         mkdir -p workspace && cd workspace
-        git clone --depth=1 https://github.com/DumprX/DumprX.git ./dumprx
+        git clone --depth=1 https://github.com/prproctober/prpr-fw-dumps ./dumprx
         cd dumprx && bash setup.sh
 
     - name: Dump Firmware
